@@ -1,0 +1,9 @@
+CREATE TABLE CLIENTS_ADDRESS
+(
+    id SERIAL PRIMARY KEY,
+    city VARCHAR(250) NOT NULL,
+    street VARCHAR(250) NOT NULL,
+    house VARCHAR(250) NOT NULL,
+    floor INT NOT NULL,
+    flat_number INT NOT NULL
+);
